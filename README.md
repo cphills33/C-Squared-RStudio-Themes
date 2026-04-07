@@ -7,6 +7,16 @@ Two custom RStudio IDE themes with a watercolor-inspired visual direction:
 
 Both themes use RStudio's supported `.rstheme` CSS format.
 
+## Screenshots
+
+### C-Squared Night Bloom
+
+![C-Squared Night Bloom](screenshots/csquared-night-bloom.png)
+
+### C-Squared Paper Wash
+
+![C-Squared Paper Wash](screenshots/csquared-paper-wash.png)
+
 ## Install
 
 Run one of these commands in the RStudio console.
@@ -34,6 +44,9 @@ You can also download a `.rstheme` file and add it manually from `Tools > Global
 ## Files
 
 ```text
+screenshots/
+  csquared-night-bloom.png
+  csquared-paper-wash.png
 themes/
   csquared-night-bloom.rstheme
   csquared-paper-wash.rstheme
