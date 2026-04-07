@@ -45,4 +45,4 @@ If you edit a theme after installing it, restart RStudio if the changes do not a
 
 ## License
 
-A license has not been added yet. Add one before inviting broad reuse or redistribution.
+This project is available under the MIT License. See [LICENSE](LICENSE) for details.
