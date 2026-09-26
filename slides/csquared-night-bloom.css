@@ -1,0 +1,37 @@
+/* C-Squared Night Bloom palette for Quarto RevealJS slides. */
+:root {
+  --r-background-color: #0a111d;
+  --r-main-color: #eaf4f3;
+  --r-heading-color: #f6fbfa;
+  --r-link-color: #58d7e8;
+  --r-link-color-hover: #ff8caa;
+  --r-main-font: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --r-heading-font: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --r-main-font-size: 29px;
+}
+
+.reveal-viewport {
+  background: radial-gradient(circle at 9% 8%, rgba(88, 215, 232, 0.12), transparent 30%),
+              radial-gradient(circle at 90% 12%, rgba(240, 106, 146, 0.10), transparent 28%),
+              linear-gradient(180deg, #0a111d 0%, #0b1422 55%, #070d16 100%);
+}
+
+.reveal h1 { font-size: 2.3em; font-weight: 700; }
+.reveal h2 {
+  font-size: 1.55em;
+  font-weight: 700;
+  margin-bottom: 0.65em;
+  padding-bottom: 0.16em;
+  border-bottom: 1px solid rgba(66, 199, 183, 0.36);
+}
+.reveal p { line-height: 1.25; }
+.reveal strong { color: #58d7e8; }
+.reveal a { color: #58d7e8; }
+.reveal .small-note { margin-top: 1.5em; color: #b5c9d5; font-size: 0.74em; }
+.reveal .source { margin-top: 0.7em; color: #b5c9d5; font-size: 0.6em; }
+.reveal .source a { color: #58d7e8; }
+.reveal .cell { margin: 0.6em 0; }
+.reveal .cell-output-display img { max-height: 455px; }
+.reveal .slide-number { background: transparent; color: #b5c9d5; font-size: 0.7em; }
+.reveal .progress { color: #42c7b7; }
+.reveal .controls { color: #58d7e8; }

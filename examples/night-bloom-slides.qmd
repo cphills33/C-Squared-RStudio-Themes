@@ -1,0 +1,44 @@
+---
+title: "C-Squared Night Bloom"
+subtitle: "Slide and chart style example"
+format:
+  revealjs:
+    theme: simple
+    css: ../slides/csquared-night-bloom.css
+    slide-number: c/t
+    transition: fade
+    center: false
+    width: 1280
+    height: 720
+execute:
+  echo: false
+---
+
+```{r}
+#| include: false
+library(ggplot2)
+source("../R/csquared-ggplot-theme.R")
+source("../R/csquared-slide-charts.R")
+sample_data <- data.frame(
+  category = c("North", "South", "East", "West"),
+  value = c(42, 31, 27, 18)
+)
+```
+
+## Slide style
+
+The slide stylesheet controls the background, typography, and accent colors.
+
+The graph theme controls the figure itself.
+
+## Highlighted bar chart
+
+```{r}
+#| fig-width: 10.7
+#| fig-height: 4.4
+#| fig-alt: "Sample horizontal bar chart highlighting North at 42."
+csquared_highlight_bars(sample_data, "category", "value", "North",
+                        x_title = "Example value")
+```
+
+<p class="small-note">Example values are illustrative.</p>
