@@ -1,10 +1,14 @@
 # C-Squared Themes
 
-Three custom RStudio IDE themes, a Quarto RevealJS slide style, and ggplot2 helpers share a watercolor-inspired visual direction:
+Three C-Squared RStudio IDE themes, one student theme, a Quarto RevealJS slide style, and ggplot2 helpers are collected here.
+
+The C-Squared themes share a watercolor-inspired visual direction:
 
 - **C-Squared Night Bloom**: a dark theme with deep navy/black editor surfaces, cyan and teal washes, rose/coral accents, muted gold, and leaf-green highlights.
 - **C-Squared Paper Wash**: a light theme with pale cool-paper backgrounds, slate ink text, softened wash selections, and rose, teal, orange, violet, and leaf-green syntax accents.
 - **C-Squared Blossom Ledger**: a light theme with warm paper backgrounds, slate-blue ink, dusty rose keywords, sea-glass teal utilities, and bark, gold, sage, and lavender secondary accents.
+
+The student collection currently contains **Purple Crocus**, a light RStudio theme with lilac backgrounds and purple syntax colors.
 
 The RStudio themes use `.rstheme` files. The slide style and plot helpers are separate: a plot can use the palette without using the slide layout.
 
@@ -51,6 +55,17 @@ rstudioapi::addTheme(
 
 You can also download a `.rstheme` file and add it manually from `Tools > Global Options > Appearance > Add`.
 
+### Student theme: Purple Crocus
+
+```r
+rstudioapi::addTheme(
+  "https://raw.githubusercontent.com/cphills33/C-Squared-RStudio-Themes/main/themes/students/purple-crocus.rstheme",
+  apply = TRUE
+)
+```
+
+Purple Crocus is an RStudio editor theme. It is separate from the C-Squared Quarto document and graph styles below.
+
 ## Files
 
 ```text
@@ -61,6 +76,8 @@ themes/
   csquared-blossom-ledger.rstheme
   csquared-night-bloom.rstheme
   csquared-paper-wash.rstheme
+  students/
+    purple-crocus.rstheme
 slides/
   csquared-night-bloom.css
 R/
